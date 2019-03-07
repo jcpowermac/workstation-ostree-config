@@ -6,6 +6,10 @@ whitelist:
   - kernel
   - kernel-modules
   - kernel-modules-extra
+  - openvswitch-ovn-host
+  - openvswitch-ovn-vtep
+  - openvswitch-ovn-common
+  - openvswitch-ovn-central
 
 # Entirely skip all packages in libreoffice
 blacklist_groups:

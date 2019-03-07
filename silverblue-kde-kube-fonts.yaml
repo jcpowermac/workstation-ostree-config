@@ -1,0 +1,53 @@
+---
+releasever: '29'
+ref: fedora/29/${basearch}/silverblue
+repos: 
+- fedora-29 
+- fedora-29-updates
+- gregw-i3desktop
+- rpmfusion-free
+- rpmfusion-nonfree
+- rpmfusion-free-updates
+- rpmfusion-nonfree-updates
+- better_fonts
+include: kde-desktop-pkgs.json
+packages: 
+- dolphin
+- kde-connect
+- perl-devel
+- desktop-backgrounds-gnome
+- gnome-shell-extension-background-logo
+- pinentry-gnome3
+- qgnomeplatform
+- NetworkManager-ovs
+- openvswitch
+- openvswitch-ovn-host
+- openvswitch-ovn-common
+- openvswitch-ovn-central
+- network-scripts-openvswitch
+- openvpn
+- git
+- tmux
+- tmux-powerline
+- zsh
+- plasma-nm-openvpn
+- NetworkManager-openvpn
+- i3-gaps
+- i3blocks
+- polybar
+- rofi
+- system-switch-displaymanager
+- lightdm
+- lightdm-gtk
+- lightdm-qt5
+- cri-o
+- cri-tools
+- fontconfig-enhanced-defaults
+- fontconfig-font-replacements
+- wmctrl
+
+  #- kubernetes
+  #- kubeadm-1.12.3-0
+  #- kubelet-1.12.3-0
+  #- kubectl-1.12.3-0
+  #- kubernetes-cni

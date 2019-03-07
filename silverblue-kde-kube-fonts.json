@@ -1,0 +1,40 @@
+{
+    "releasever": "29",
+    "ref": "fedora/29/${basearch}/silverblue",
+    "repos": ["fedora-29", "fedora-29-updates", "kubernetes", "nforro-i3-gaps", "rpmfusion-free", "rpmfusion-nonfree", "rpmfusion-free-updates", "rpmfusion-nonfree-updates","better_fonts" ],
+
+    "include": "kde-desktop-pkgs.json",
+
+    "packages": [
+	"kde-connect",
+	"perl-devel",
+        "desktop-backgrounds-gnome",
+        "gnome-shell-extension-background-logo",
+        "pinentry-gnome3",
+        "qgnomeplatform",
+	"openvswitch",
+	"openvswitch-ovn-host",
+	"openvswitch-ovn-common",
+	"openvswitch-ovn-central",
+	"openvpn",
+	"git",
+	"tmux",
+	"tmux-powerline",
+	"zsh",
+	"plasma-nm-openvpn",
+	"NetworkManager-openvpn",
+	"i3-gaps",
+	"system-switch-displaymanager",
+	"lightdm",
+	"lightdm-gtk",
+	"lightdm-qt5",
+	"kubeadm-1.12.2-0",
+	"kubelet-1.12.2-0",
+	"kubectl-1.12.2-0",
+	"cri-o",
+	"cri-tools",
+	"kubernetes-cni",
+	"fontconfig-enhanced-defaults",
+	"fontconfig-font-replacements"
+    ]
+}

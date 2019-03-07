@@ -1,0 +1,22 @@
+{
+    "ref": "fedora/29/${basearch}/silverblue",
+    "repos": ["fedora-29"],
+
+    "include": "kde-desktop-pkgs.json",
+
+    "packages": [
+        "desktop-backgrounds-gnome",
+        "gnome-shell-extension-background-logo",
+        "pinentry-gnome3",
+        "qgnomeplatform",
+	"openvswitch",
+	"openvswitch-ovn-host",
+	"openvswitch-ovn-common",
+	"openvswitch-ovn-central",
+	"i3",
+	"system-switch-displaymanager",
+	"lightdm",
+	"lightdm-gtk",
+	"lightdm-qt5"
+    ]
+}
