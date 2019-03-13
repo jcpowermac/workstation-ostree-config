@@ -45,6 +45,7 @@ packages:
 - fontconfig-enhanced-defaults
 - fontconfig-font-replacements
 - wmctrl
+- golang
 
   #- kubernetes
   #- kubeadm-1.12.3-0
