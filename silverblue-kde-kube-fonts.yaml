@@ -46,6 +46,7 @@ packages:
 - fontconfig-font-replacements
 - wmctrl
 - golang
+- chromium
 
   #- kubernetes
   #- kubeadm-1.12.3-0
